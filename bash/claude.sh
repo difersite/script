@@ -29,7 +29,7 @@ main(){
 
 while true; do
   #Ingreso de la pregunta
-  echo -e "\033[1;34mIntroduce tu consulta para Calypso AI? (o 'salir' para terminar)\033[0m"
+  echo -e "\033[1;34mHola soy claude, tu asistente para consultas generale.\nIntroduce tu consulta para Calypso AI (Anthropic)? (o 'salir' para terminar)\033[0m"
   read -r user_prompt
   
   #Verificar si el usuario quiere salir
