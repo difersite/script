@@ -3,7 +3,7 @@
 # Función para realizar la solicitud a Calypso AI
 send_calypso_request() {
     local prompt="$1"
-    local CAI_TOKEN="MDE5MzZhNjctNTM0Ny03MDE2LWE1OWItZDhkM2JkYTJiNjU2/Cb1tePmMHS7y0vkCjMpi6Fw4gHm6ihdkPqHCQ3YCuNpMFWqDQpYhjWm2xMviau70C27hoBLoxKjA2dHfvLSA"
+    local CAI_TOKEN="mi api"
 
     # Realizar la solicitud usando curl
     response=$(curl -s https://www.us1.calypsoai.app/backend/v1/prompts \
