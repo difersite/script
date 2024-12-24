@@ -16,8 +16,8 @@ send_calypso_request() {
     echo "$response" | jq -r '.result.response'
 
     # Incluir en logs
-    echo "[$(date "+%Y-%m-%d %H:%M:%S")] Prompt: $1" >> ./Logs/logs.log
-    echo "$response" | jq -r '.result.response' >> ./Logs/logs.log
+    echo "[$(date "+%Y-%m-%d %H:%M:%S")] Prompt: $1" >> ~/.local/share/applications/Logs/logs.log
+    echo "$response" | jq -r '.result.response' >> ~/.local/share/applications/Logs/logs.log
 
     #Respuesta en formato markdown
     echo "$response" | jq -r '.result.response' >> ./respuesta.md
